@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
   # coveralls: coveralls/coveralls@1.0.4 # coveralls setup
-  codecov: codecov/codecov@1.2.5
+  codecov: codecov/codecov@3.2.2
 jobs:
   node-v10:
     docker:
