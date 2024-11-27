@@ -5,19 +5,19 @@ orbs:
 jobs:
   node-v10:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:17
     steps:
       - test
   node-v12:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:17
     steps:
       - test
       - store-coverage-data
       - upload-coverage
   node-v13:
     docker:
-      - image: circleci/node:14
+      - image: circleci/node:17
     steps:
       - test
 commands:
